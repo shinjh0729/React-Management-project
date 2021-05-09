@@ -2,12 +2,9 @@ import './App.css';
 import React,{ Component } from 'react';
 import Customer from './components/Customer';
 
-class App extends Component() {
-  render() {
+function App(){
     return (
       <Customer/>
     );
-  }
 }
-
 export default App;
